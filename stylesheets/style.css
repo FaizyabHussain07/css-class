@@ -1,0 +1,45 @@
+
+/* comment */
+/* a{
+    color: red;
+    background-color: aliceblue;
+} */
+
+* {
+    color: black;
+}
+h1, h2, h3 {
+    color: red;
+}
+h1, h2, h3 {
+    color: green;
+}
+
+p.note{
+    color: red;
+}
+
+h2#heading-l2 {
+    color: blue;
+}
+
+/* CHILD SELECTOR */
+p#para3>a.green{
+  color: green;  
+}
+p#para3 a.green{
+  color: green;  
+}
+
+h1+p{
+    color: red;
+}
+h1~p{
+    /* Color Name */
+    /* color: red;  */
+
+    /* color: rgb(32, 54, 17); */
+
+
+    color: #ee3e80;
+}
